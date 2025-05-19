@@ -129,10 +129,6 @@ If you encounter any issues or have suggestions for improvement, feel free to [o
 
 ---
 
-## 📌 Author
-
-Developed with ❤️ by **[@jnaneshreddy](https://github.com/jnaneshreddy)**
-
 ---
 
 ### ⚠️ Important
