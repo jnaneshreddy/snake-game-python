@@ -28,6 +28,14 @@ class Snake:
     def extand(self):
         self.add_segment(self.segemnts[-1].position())
 
+    def reset(self):
+        for seg in self.segemnts:
+            seg.goto(1000,1000)
+
+        self.segemnts.clear()
+        self.create_snake()
+        self.head = self.segemnts[0]
+
     def move(self):
         for seg_num in range(len(self.segemnts) - 1, 0, -1):
             new_x = self.segemnts[seg_num - 1].xcor()
